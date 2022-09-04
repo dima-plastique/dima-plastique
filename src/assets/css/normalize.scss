@@ -1,0 +1,138 @@
+/*ШРИФТЫ*/
+
+@font-face {
+  font-family: "Roboto-light", sans-serif;
+  src: url(../fonts/RobotoCondensed-Light.woff);
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto Condensed", sans-serif;
+  src: url(../fonts/RobotoCondensed-Bold.woff);
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto Condensed", sans-serif;
+  src: url(../fonts/RobotoCondensed-Regular.woff);
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Segoe UI-Regular";
+  src: url(../fonts/SegoeUI.woff);
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SegoeUI-Bold";
+  src: url(../fonts/SegoeUI-Bold.woff);
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Segoe UI";
+  src: url(../fonts/SegoeUI-Light.woff);
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url(../fonts/Ubuntu-Regular.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  background-color: #ffffff;
+  font-family: "Roboto Condensed", sans-serif;
+  height: 100%;
+
+  width: 100%;
+  line-height: 1;
+  font-size: 16px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
